@@ -27,6 +27,7 @@ export default function Index() {
           </a>
         </li>
       </ul>
+      <a href="posts">Posts App</a>
     </div>
   );
 }
