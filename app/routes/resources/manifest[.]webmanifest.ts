@@ -10,6 +10,11 @@ export let loader: LoaderFunction = async () => {
       display: "standalone",
       background_color: "#d3d7dd",
       theme_color: "#c34138",
+      "prefer_related_applications": true,
+      "related_applications": [{
+        "platform": "webapp",
+        "url": "https://pwa2-rho.vercel.app/resources/manifest.webmanifest"
+      }],
       shortcuts: [
         {
           name: "Homepage",
